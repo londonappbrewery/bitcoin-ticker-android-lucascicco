@@ -23,13 +23,18 @@
         android:layout_centerHorizontal="true"/>
 
     <ImageView
+        android:id="@+id/logoImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logoImage"
-        android:contentDescription="@string/imageview_desc"
-        android:src="@drawable/bitcoin_image"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:contentDescription="@string/imageview_desc"
+        android:src="@drawable/bitcoin_image" />
 
     <LinearLayout
         android:orientation="horizontal"
